@@ -6,6 +6,7 @@ function Conteudo() {
         <div className='conteudo'>
             <div className='div-conteudo'>
                 <h2 className='h2'>Faça Você Mesmo!!!</h2>
+
                 <div className='div-p'>
                     <img src={imagemStream} alt="ilustração" className='img-conteudo' />
                     <p className='texto'>
@@ -13,6 +14,7 @@ function Conteudo() {
                         plataforma para streamar, pois esses são os únicos itens necessários para um stream.
                     </p>
                 </div>
+                
                 <h2 className='h2-conteudo'>
                     Lógico que eu não iria deixar vocês sem umas dicas de por onde começar, então vamos lá:
                 </h2>

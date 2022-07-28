@@ -1,6 +1,6 @@
 import Header from "../../componentes/Header/Header"
 import Footer from "../../componentes/Footer/Footer"
-import image from "../Mulher/img/Woman.png"
+import Imagem from "../Mulher/img/Woman.png"
 import Woman from "./Woman/Woman"
 
 
@@ -8,7 +8,7 @@ function Mulher() {
     return(
        <>
         <Header 
-        image={image}
+        image={Imagem}
         description=''>
            Girl Power, com força total!!!
             
