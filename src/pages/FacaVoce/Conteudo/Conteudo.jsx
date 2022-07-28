@@ -80,7 +80,11 @@ function Conteudo() {
                 </h2> 
 
                 <p className='p-conteudo'>
-
+                
+                </p>
+                <p>
+                    Aqui eu deixo mais alguns vídeos para ajudar vocês <a href="https://www.youtube.com/watch?v=aw2wOnFtx84">  
+                    dica </a> de console com PC e ainda ele explica um pouco de OBS <a href="https://www.youtube.com/c/EscolaparaStreamers"> Aqui também</a>
                 </p>
             </div>
         </div>

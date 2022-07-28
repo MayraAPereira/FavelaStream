@@ -19,3 +19,11 @@
     height: 60vh;
     border: solid 2px rgb(115, 223, 6);
   }
+  
+@media screen and (max-width: 900px) {
+    
+.header img {
+  width: 20vw;
+  height: 40vh;
+}
+  }
