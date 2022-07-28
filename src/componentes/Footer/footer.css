@@ -1,0 +1,18 @@
+.footer {
+    background-image: linear-gradient(to top, white , #4BF2E2 99%);
+    color: black;
+    height: 60px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+a{
+    text-decoration: none;
+  }
+  
+span {
+    color: black;
+    padding-left: 3px;
+  }

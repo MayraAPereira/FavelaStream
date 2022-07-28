@@ -1,0 +1,22 @@
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, rgb(51, 255, 0), black);
+  }
+  
+  .item {
+    float:left;
+  }
+  
+  .item .link {
+    font-size: 1.3em;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000000;
+
+  }
