@@ -28,10 +28,10 @@ function About() {
                     <p>
                         Porém essa ideia ficou para um futuro distante pois precisa de investimento, então decidi fazer esse site, 
                         para ensinar a todos que acham que não podem streamar porque não tem um equipamento profissional. <br />
-                        Na aba <a href="/facavoce">faça você mesmo</a> informo os equipamentos necessários para um stream desde o mais 
+                        Na aba <a href="/facavoce" className='about-link'>faça você mesmo</a> informo os equipamentos necessários para um stream desde o mais 
                         básico até o profissional, 
                         e algumas das plataformas disponíveis para streamar, como um passo a passo para incluir a todos. 
-                        Espero com isso poder te auxiliar a entrar no mundo do stream e qualquer dúvida e sugestões, a aba de <a href="/contato">contatos </a> 
+                        Espero com isso poder te auxiliar a entrar no mundo do stream e qualquer dúvida e sugestões, a aba de <a href="/contato" className='about-link'>contatos </a> 
                         está disponível para te ajudar. 
                     </p>
                     <br />

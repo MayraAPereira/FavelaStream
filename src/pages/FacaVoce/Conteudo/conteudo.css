@@ -14,9 +14,10 @@
   max-width: 70%
 }
 
-.h2 {
+.primeiro-h2 {
+  font-size: 5rem;
   text-align: center;
-  font-size: 60px;
+  color: rgb(240, 97, 231);
   font-family: 'Odibee Sans', cursive;
 }
 
@@ -41,7 +42,7 @@
 
 .h2-conteudo { 
   
-  max-width: 70%;
+  max-width: 90%;
   text-align: justify;
   padding-top: 1rem;
   font-size: 30px;
@@ -49,15 +50,36 @@
 
 }
 
-.p-conteudo {
-  padding-top: 0.8rem;
-  font-weight: 300px;
-  font-size: 18px;
+.h3-conteudo {
+  padding: 1rem;
+  font-size: 20px;
+}
+
+.conteudos-h3 {
+  padding: 1rem;
+  letter-spacing: 1px;
 }
 
 .lista {
-  padding: 0.8rem;
+  padding: 1rem;
 
+}
+
+.h2-icone {
+  padding: 1rem;
+}
+.imagem-icon {
+  width: 10vh;
+}
+
+.p-conteudo {
+  padding: 1rem;
+}
+
+.lista-link {
+  margin-top: 5px;
+  color: #ffffff;
+  text-shadow: 0.6px 0.5px 0.8px rgb(123, 123, 123);
 }
 
 @media screen and (max-width: 900px) {

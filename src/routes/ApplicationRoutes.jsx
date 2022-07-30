@@ -14,6 +14,7 @@ function ApplicationRoutes() {
             <Route path="facavoce" element={<FacaVoce />} />
             <Route path="mulher" element={<Mulher />} />
             <Route path="contato" element={<Contato />} />
+            
          </Routes>
        </BrowserRouter>
     )

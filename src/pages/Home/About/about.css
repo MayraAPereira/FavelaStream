@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     padding: 2rem 0;
-    background-image: linear-gradient(to bottom, black 60%, #4BF2E2);
+    background-image: linear-gradient(to bottom, black 20%, #4BF2E2);
     color: aliceblue;
   }
   
@@ -28,6 +28,9 @@
     font-weight: 300;
     font-size: 18px;
   }
+  .about-link {
+    color: #4BF2E2;
+  }
   
   @media screen and (min-width: 769px) {
     .about {
@@ -45,3 +48,9 @@
       text-align: left;
     }
   }
+@media screen and (max-width: 400px) {
+
+   .profile-image {
+    width: 250px;
+   }
+}

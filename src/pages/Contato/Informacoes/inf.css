@@ -1,39 +1,119 @@
-.div-informacao {
-  
+.div-contato {
   padding: 50px;
   text-align: center;
-  color: rgb(223, 212, 6);
-  background-color: #000000;
+  color: rgba(79, 228, 71, 0.176);
+  background-image: linear-gradient(to bottom, black 55%, #4BF2E2);
   background-size: cover;
   
 }
-.informacao {
-  font-size: 30px;
- 
+
+.contato-h2 {
+  text-align: left;
+  font-size: 50px;
+  text-shadow: 1px 2px 5px rgba(79, 228, 71, 0.176);
 }
-.div-icons {
+
+.contato-h3 {
+  text-align: right;
+  margin-right: 120px;
+  margin-top: 10px;
+  font-size: 70px;
+  text-shadow: 1px 2px 5px rgba(79, 228, 71, 0.176);
+}
+
+.contato-h4 {
+  text-align: justify;
+  margin-left: 120px;
+  font-size: 40px;
+  margin-top: 10px;
+  text-shadow: 1px 2px 5px rgba(79, 228, 71, 0.176);
+}
+
+.contatos-redes {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.contatos-p{
+  
+  color: #5ad1bb;
+  font-size: 30px;
+  text-align: justify;
+  padding: 20px;
+  width: 50%;
+  margin-left: 25%;
+
+}
+.contatos-icons {
   margin: 50px;
   
-}
-.img {
-  width: 90px;
   
 }
-/*.div-informacao {
-    padding: 100px;
-    text-align: center;
-    color: rgb(115, 223, 6);
-    background-image: linear-gradient(to bottom, black 70%, green);
-    background-size: cover;
-    height: 100%;
-    width: 70%;
+.img-contatos {
+  width: 90px; 
+}
+.e-mail {
+  color: #5ad1bb;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  
+}
+@media screen and (max-width:769) {
+  .div-contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
-.div-incons{
-  align-items: center;
-  display: flex;
+  .contato-h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .contato-h3 {
+    font-size: 30px;
+    text-align: center;
+  }
 
-}*/
+  .contato-h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .contatos-p {
+    font-size: 10px;
+  }
+
+  .img-contatos {
+    width: 60px;
+  }
+}
+  @media screen and (max-width: 400px) {
+    
+    .e-mail {
+      width: 5px;
+      margin: 0;
+    }
+    .contato-h2 {
+      font-size: 30px;
+      text-align: center;
+      margin: 0;
+    }
+    
+    .contato-h3 {
+      font-size: 30px;
+      margin: 0;
+    }
+
+    .contato-h4 {
+      font-size: 30px;
+      text-align: center;
+      margin: 0;
+    }
+  }
+ 
+
 
 
   

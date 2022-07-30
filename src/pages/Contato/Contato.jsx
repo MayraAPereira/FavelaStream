@@ -4,10 +4,8 @@ import Informacao from "./Informacoes/Inf"
 function Contato() {
     return(
         <>
-        
         <Informacao />
-        <Footer />
-        
+        <Footer />  
         </>
     )
 }
